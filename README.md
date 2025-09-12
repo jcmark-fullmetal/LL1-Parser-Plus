@@ -58,6 +58,3 @@ pwsh -NoProfile -Command "mkdir build -ErrorAction SilentlyContinue; gcc -g -c m
 ## Notes
 - The parser expects terminals like `id` (two characters) and handles them consistently in the stack and table.
 - `utils.c` writes a space-stripped copy of the grammar to `build/output.txt` during processing.
-
-## License
-MIT or similar permissive license recommended.
