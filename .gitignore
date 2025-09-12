@@ -1,0 +1,17 @@
+# Build outputs
+src/build/
+*.o
+parser
+parser.exe
+
+# Generated
+src/output.txt
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Archives
+*.zip
+*.tar
+*.tar.gz
